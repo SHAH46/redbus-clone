@@ -1,0 +1,222 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+    
+#head{
+    background-color:rgb(209, 89, 89);
+    height: 60px;
+    display:flex;
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#list{
+    display: inline;
+    margin-left: 740px;
+    white-space: nowrap;
+}
+ul li{
+    padding: 10px;
+    margin-top: 20px;
+    float: left;
+    list-style: none;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    color: white;
+}
+
+ul li:hover{
+    background-color: #deb887;
+}
+ul li ul li{
+    background-color: white;
+    color: black;
+    display: none;
+    width: 250px;
+    height: 30px;
+    padding: 0;
+    margin:0;
+}
+ul li:hover ul li{
+    display: block;
+}
+body{
+    width: 100%;
+    height: 40px;
+    background-image: url(./hero.png);
+    background-size: 100%;
+    background-position: 0% 5%;
+    background-repeat: no-repeat;
+}
+.look img{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+#but button{
+    margin-top: 200px;
+    background-color:rgb(209, 89, 89);
+    color: white;
+    width: 200px;
+    height: 45px;
+    border-radius: 0px;
+    position:relative;
+    display: inline-block;
+    border: radius 0px;;
+}
+input{
+    margin-top: 200px;
+    width: 200px;
+    height: 45px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 0px;
+    border-style:unset;
+}
+h1{
+    height: 50px;
+    width: 100%;
+    padding-top : 25px ;
+    margin-top: 440px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.box{
+    position: relative;
+    margin:auto 100px;
+}
+#box1{
+    float: left ;
+    background-color: white;
+}
+#box2{
+    float: left;
+    background-color: white;
+  
+}
+#box3{
+    float: left;
+    background-color: white;
+}
+#box4{
+    float: left;
+    background-color: white;
+}
+.box img{
+    
+    display: flex;
+    width: 35%;
+    height: auto;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+p{
+    text-align: center;
+    font-size: large;
+}
+#but{
+    margin-left: 150px;
+    display: flex;
+    position: absolute;
+}
+#but i{
+    font-display: inherit;
+    height: 45px;
+    margin-top: 200px;
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+.booking{
+    background-color: rgb(99, 75, 75);
+    width: 100%;
+}
+
+#last{
+    padding-top: 15px;
+}
+.box{
+    background-color: grey;
+}
+
+
+
+#main{
+    width: 100%;
+    height: 580px;
+    margin-top: 310px;
+    border: 2px solid black;
+    background-color: grey;
+    position: absolute;
+}
+#imga{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+h2{
+    height: 50px;
+    background-color: white;
+    padding-top: 20px;
+}
+#all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+#css > #all > div{
+    flex-basis: 33% ;
+    height: 200px;
+    position: relative;
+    
+}
+
+#india p:first-child{
+    width: 33%;
+    height: 80px;
+    background-image: url(./flag.png);
+    background-position: 0 -294px;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+#col p:first-child{
+    height: 80px;
+    background-image: url(./flag.png);
+    background-position: 0 -614px;
+    background-repeat: no-repeat;
+}
+#ind p:first-child{
+    height: 80px;
+    background-image: url(./flag.png);
+    background-position: 0 -214px;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+#mal p:first-child{
+    height: 80px;
+    background-image: url(./flag.png);
+    background-position: 0 -374px;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+#per p:first-child{
+    height: 80px;
+    background-image: url(./flag.png);
+    background-position: 0 -534px;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+#sin p:first-child{
+    height: 80px;
+    background-image: url(./flag.png);
+    background-position: 0 -454px;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
